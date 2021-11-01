@@ -1,0 +1,19 @@
+header {
+   margin: 30px;
+}
+
+header .big{
+   margin-bottom: 25px;
+   display: flex;
+   justify-content: center;
+}
+
+header .big div {
+   margin: 0 30px;
+}
+
+main {
+   margin-left: 25px;
+   display: flex;
+   justify-content: center;
+}

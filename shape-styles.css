@@ -1,0 +1,38 @@
+.cube {
+   width: 100px;
+   height: 100px;
+   transition: .3s;
+}
+
+.cube .main {
+   width: 75%;
+   height: 75%;
+   background-color: #555;
+}
+
+.cube .side1 {
+   width: 75%;
+   height: 25%;
+   background-color: #333;
+   transform: skew(-45deg) translateX(16.75%);
+}
+
+.cube .side2 {
+   width: 25%;
+   height: 75%;
+   background-color: #222;
+   transform: skewY(-45deg) translateY(-16.75%) translateX(300%);
+}
+
+.cube:hover, .circle:hover {
+   transform: scale(1.25);
+   transition: .3s;
+}
+
+.circle {
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   background-color: #555;
+   transition: .3s;
+}
